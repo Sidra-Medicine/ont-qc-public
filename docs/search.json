@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Welcome to the ONT QC Dashboard! This Dashboard provides a comprehensive overview of QC metrics for your Oxford Nanopore sequencing data. Use the links below to explore the data:\n\nInteractive Dashboard\n\n\n\nThis Dashboard is generated using Quarto, a powerful tool for creating reproducible and professional-quality reports. The workflow extracts QC data from ONT JSON files, organizes it into TSV files, and generates both static and interactive Dashboard.\n\n\n\n\n\nThese metrics focus on sequencing performance and read characteristics:\n\nCoverage: The average depth of sequencing coverage across the genome.\nNo of Bases: The total number of bases sequenced.\nOverall N50: The read length at which 50% of the total bases are contained in reads of this length or longer.\nActive Channels: The number of active sequencing channels during the run. This metric provides insights into the utilization of the flow cell.\nIdentity Frequency: The frequency of base calls (A, T, C, G) in the sequencing data. This metric helps identify potential biases or issues in base calling.\n\n\n\n\nThese metrics focus on alignment and variant calling performance:\n\nAlignment and Coverage Metrics:\n\nN50: The read length at which 50% of the total aligned bases are contained in reads of this length or longer.\nYield: The total number of bases sequenced after filtering (passed reads).\nMapping Percentage: The percentage of reads that successfully aligned to the reference genome.\nMedian Read Quality: The median quality score of the reads (Phred score).\nMedian Read Length: The median length of the reads.\nTotal Coverage (Depth): The average depth of sequencing coverage across the genome after alignment.\n\nVariant Metrics:\n\nSNVs: The total number of single nucleotide variants (SNVs) detected.\nIndels: The total number of insertions and deletions (indels) detected.\nTransition/Transversion Rate: The ratio of transitions (e.g., A↔︎G, C↔︎T) to transversions (e.g., A↔︎C, A↔︎T, G↔︎C, G↔︎T). This ratio is often used to assess the quality of variant calls.\nSV Insertions: The number of structural variant (SV) insertions detected.\nSV Deletions: The number of structural variant (SV) deletions detected."
+  },
+  {
+    "objectID": "index.html#about-this-dashboard",
+    "href": "index.html#about-this-dashboard",
+    "title": "Home",
+    "section": "",
+    "text": "This Dashboard is generated using Quarto, a powerful tool for creating reproducible and professional-quality reports. The workflow extracts QC data from ONT JSON files, organizes it into TSV files, and generates both static and interactive Dashboard."
+  },
+  {
+    "objectID": "index.html#key-features",
+    "href": "index.html#key-features",
+    "title": "Home",
+    "section": "",
+    "text": "These metrics focus on sequencing performance and read characteristics:\n\nCoverage: The average depth of sequencing coverage across the genome.\nNo of Bases: The total number of bases sequenced.\nOverall N50: The read length at which 50% of the total bases are contained in reads of this length or longer.\nActive Channels: The number of active sequencing channels during the run. This metric provides insights into the utilization of the flow cell.\nIdentity Frequency: The frequency of base calls (A, T, C, G) in the sequencing data. This metric helps identify potential biases or issues in base calling.\n\n\n\n\nThese metrics focus on alignment and variant calling performance:\n\nAlignment and Coverage Metrics:\n\nN50: The read length at which 50% of the total aligned bases are contained in reads of this length or longer.\nYield: The total number of bases sequenced after filtering (passed reads).\nMapping Percentage: The percentage of reads that successfully aligned to the reference genome.\nMedian Read Quality: The median quality score of the reads (Phred score).\nMedian Read Length: The median length of the reads.\nTotal Coverage (Depth): The average depth of sequencing coverage across the genome after alignment.\n\nVariant Metrics:\n\nSNVs: The total number of single nucleotide variants (SNVs) detected.\nIndels: The total number of insertions and deletions (indels) detected.\nTransition/Transversion Rate: The ratio of transitions (e.g., A↔︎G, C↔︎T) to transversions (e.g., A↔︎C, A↔︎T, G↔︎C, G↔︎T). This ratio is often used to assess the quality of variant calls.\nSV Insertions: The number of structural variant (SV) insertions detected.\nSV Deletions: The number of structural variant (SV) deletions detected."
+  }
+]
